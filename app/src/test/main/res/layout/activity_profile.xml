@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.betterlifedemo.ProfileActivity">
+
+    <Button
+        android:id="@+id/btnbalancediet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balance Diet"
+
+        />
+    <Button
+        android:id="@+id/btnexercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Exercise"
+
+        />
+
+    <Button
+
+        android:id="@+id/btnchatting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:text="Chatting"
+
+        />
+
+    <Button
+
+        android:id="@+id/btnsignout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Sign Out"
+
+        />
+
+
+
+
+</LinearLayout>
